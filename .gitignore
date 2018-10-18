@@ -1,0 +1,10 @@
+/dist
+/tmp
+/out-tsc
+/target
+package-lock.json
+yarn-error.log
+yarn.lock
+
+# dependencies
+/node_modules

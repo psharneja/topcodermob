@@ -1,0 +1,24 @@
+{
+  "name": "topcodermobile",
+  "version": "1.0.0",
+  "description": "topcoder mobile",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "gulp",
+    "start": "http-server indec.html",
+    "serve": "http-server dist/index.html"
+  },
+  "author": "Prabhsimran Singh <psharneja@gmail.com> (http://psharneja.github.io/)",
+  "devDependencies": {
+    "del": "3.0.0",
+    "eslint": "5.7.0",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-csso": "3.0.1",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.1",
+    "http-server": "0.11.1",
+    "run-sequence": "2.2.1"
+  }
+}
