@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "postinstall": "gulp",
-    "start": "http-server indec.html",
-    "serve": "http-server dist/index.html"
+    "start": "http-server",
+    "serve": "http-server dist/"
   },
   "author": "Prabhsimran Singh <psharneja@gmail.com> (http://psharneja.github.io/)",
   "devDependencies": {
@@ -18,7 +18,10 @@
     "gulp-htmlmin": "5.0.1",
     "gulp-sass": "4.0.2",
     "gulp-uglify": "3.0.1",
-    "http-server": "0.11.1",
+    "http-server": "^0.11.1",
     "run-sequence": "2.2.1"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11"
   }
 }
